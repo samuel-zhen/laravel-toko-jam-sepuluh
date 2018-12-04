@@ -1,0 +1,44 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@red              : #eb3b5a;
+@orange           : #fa8231;
+@yellow           : #fed330;
+@green            : #26de81;
+@teal             : #2bcbba;
+@blue             : #45aaf2;
+
+/*---  Light Colors  ---*/
+@lightOrange      : #fd9644;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @orange;
+@secondaryColor      : @black;
+
+@lightPrimaryColor   : @lightOrange;
+@lightSecondaryColor : @lightBlack;
+
+/*-------------------
+    Focused Input
+--------------------*/
+
+/* Used on inputs, textarea etc */
+@focusedFormBorderColor: @lightPrimaryColor;
+
+/* Used on dropdowns, other larger blocks */
+@focusedFormMutedBorderColor: @lightPrimaryColor;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : @primaryColor;

@@ -1,0 +1,106 @@
+@media screen and (max-width: 700px) {
+    .ui.secondary.pointing.menu {
+        flex-wrap: wrap;
+    }
+}
+
+@font-face {
+    font-family: 'Forte';
+    src: url('../fonts/Forte.ttf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// ======================================
+// Receipt Style
+.receipt {
+    border: 1px solid #222;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #222;
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+        &__logo img {
+            width: 60px;
+        }
+
+        &__text {
+            margin-left: 10px;
+            font-family: 'Forte';
+            font-size: 2rem;
+            font-weight: normal;
+            word-spacing: -0.5rem;
+        }
+    }
+
+    &__body {
+        padding: 10px;
+        border-bottom: 1px solid #222;
+        border-top: 1px solid #222;
+    }
+
+    &__footer {
+        padding: 10px;
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+}
+
+// ======================================
+// Services Receipt Style
+.service-receipt {
+    &__number {
+        text-align: center;
+        margin-bottom: 10px;
+    
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    &__information td {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        vertical-align: top;
+    }
+
+    &__attribute {
+        width: 100px;
+    }
+
+    &__value {
+        padding-left: 4px;
+    }
+
+    &__tag {
+        border-top: 1px dashed #222;
+        padding: 5px 10px;
+        
+        h3 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+// ======================================
+// Delivery Receipt Style
+.delivery-receipt {
+    border-color: #222 !important;
+    font-size: 1rem !important;
+    
+    & tr td {
+        border-color: #222 !important;
+    }
+}

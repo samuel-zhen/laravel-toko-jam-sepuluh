@@ -1,0 +1,106 @@
+@media screen and (max-width: 700px) {
+  .ui.secondary.pointing.menu {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@font-face {
+  font-family: 'Forte';
+  src: url(/fonts/Forte.ttf.woff?a5a4964f6d982b20f426c21ddb258fce) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.receipt {
+  border: 1px solid #222;
+  margin: 0 auto;
+  width: 400px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #222;
+}
+
+.receipt__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.receipt__header__logo img {
+  width: 60px;
+}
+
+.receipt__header__text {
+  margin-left: 10px;
+  font-family: 'Forte';
+  font-size: 2rem;
+  font-weight: normal;
+  word-spacing: -0.5rem;
+}
+
+.receipt__body {
+  padding: 10px;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+.receipt__footer {
+  padding: 10px;
+}
+
+.receipt__footer p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.service-receipt__number {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.service-receipt__number h3 {
+  font-size: 2rem;
+}
+
+.service-receipt__information td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  vertical-align: top;
+}
+
+.service-receipt__attribute {
+  width: 100px;
+}
+
+.service-receipt__value {
+  padding-left: 4px;
+}
+
+.service-receipt__tag {
+  border-top: 1px dashed #222;
+  padding: 5px 10px;
+}
+
+.service-receipt__tag h3 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.delivery-receipt {
+  border-color: #222 !important;
+  font-size: 1rem !important;
+}
+
+.delivery-receipt tr td {
+  border-color: #222 !important;
+}
+
